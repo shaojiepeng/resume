@@ -706,6 +706,7 @@ a.btn:hover {
   }
   .timeline .place {
     margin-bottom: 5px;
+    max-width: 239px;
   }
   .timeline .job-meta {
     position: static;
@@ -745,7 +746,7 @@ a.btn:hover {
   }
   .contact-section .intro {
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
   .contact-section .intro .profile-image {
     position: static;

@@ -439,31 +439,33 @@ var app = new Vue({
     },
     methods: {
     },
-	created:function(){
-		$.ajax({
-		    url:'mock/work.json',
-		    type:'GET',
-		    async:true,
-		    data:{},
-		    dataType:'json',
-		    success:function(data,textStatus,jqXHR){
-		        /*console.log(data)
-		        console.log(textStatus)
-		        console.log(jqXHR)*/
-		        app.workList = data;
-		    },
-		    error:function(xhr,textStatus){
-		        console.log('错误')
-		        console.log(xhr)
-		        console.log(textStatus)
-		    }
-		})
+	ready:function(){
+		
 	},
 
 });
 
 
-
+$(function() {
+	$.ajax({
+	    url:'mock/work.json',
+	    type:'GET',
+	    async:true,
+	    data:{},
+	    dataType:'json',
+	    success:function(data,textStatus,jqXHR){
+	        /*console.log(data)
+	        console.log(textStatus)
+	        console.log(jqXHR)*/
+	        app.workList = data;
+	    },
+	    error:function(xhr,textStatus){
+	        console.log('错误')
+	        console.log(xhr)
+	        console.log(textStatus)
+	    }
+	})
+});
 
 
 </script>
