@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<title>Home</title>
+<title>Pengshaojie's Resume</title>
 <!-- Meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +13,14 @@
 <link rel="shortcut icon" href="">  
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <!-- Global CSS -->
-<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">   
 <!-- Plugins CSS -->
-<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-
+<link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+<!-- magnific popup -->
+<link rel="stylesheet" href="plugins/magnific/magnific-popup.css">
 <!-- Theme CSS -->  
-<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
+<link id="theme-style" rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/vendor.css">
 </head> 
 
 <body>
@@ -27,25 +28,33 @@
 <header class="header">
 	<div class="top-bar container-fluid">
 		<div class="actions">
-			<a class="btn hidden-xs" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
-			<a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+			<a class="btn hidden-xs" href="mailto:pengshaojie@aliyun.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> 联系我</a>
+			<a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> 下载简历</a>
 		</div><!--//actions-->
 		<ul class="social list-inline">
-			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 			<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
+			<li>
+				<a href="mailto:pengshaojie@aliyun.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a href="tel: +86 15989790855"><i class="fa fa-phone" aria-hidden="true"></i></a>
+			</li>
+			<li><a target="_blank" href="https://gitee.com/shaojiepeng"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+			<li><a class="link-mask" href="#weixin"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
 		</ul><!--//social-->
 	</div><!--//top-bar-->
 	
 	<div class="intro">
 		<div class="container text-center">
-			<img class="profile-image" src="assets/images/profile-image.png" alt="">
-			<h1 class="name">James Doe</h1>
-			<div class="title">Full Stack Developer</div>
+			<img class="profile-image" src="images/profile-image.png" alt="">
+			<h1 class="name">彭少杰</h1>
+			<div class="title">全栈工程师 &amp; 研发经理</div>
 			<div class="profile">
-				<p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
+				<p>5年以上Java开发经验，扎实的Java编程功底；</p>
+				<p>有丰富的Java Web项目和门户网站项目等开发经验以及优秀的团队管理能力；</p>
+				<p>熟悉前端、后端开发技术；能在高强度的工作压力下保持良好的心态工作；</p>
 			</div><!--//profile-->
 		</div><!--//container-->
 	</div><!--//intro-->
@@ -53,9 +62,12 @@
 	<div class="contact-info">
 		<div class="container text-center">
 			<ul class="list-inline">
-				<li class="email"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">james.doe@website.com</a></li>
-				<li><i class="fa fa-phone"></i> <a href="tel: 0123456789">0123 456 7890</a></li>
-				<li class="website"><i class="fa fa-globe"></i><a href="#" target="_blank">portfoliosite.com</a></li>
+				<li class="email"><i class="fa fa-envelope"></i><a href="mailto:pengshaojie@aliyun.com">pengshaojie@aliyun.com</a></li>
+				<li><i class="fa fa-phone"></i> <a href="tel: +86 15989790855">+86 15989790855</a></li>
+				<li class="website"><i class="fa fa-globe"></i><a href="https://shaojiepeng.github.io/resume" target="_blank">shaojiepeng.github.io/resume</a></li>
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i>珠海</li>
+				<li><i class="fa fa-graduation-cap" aria-hidden="true"></i>本科</li>
+
 			</ul>
 		</div><!--//container-->
 	</div><!--//contact-info-->
@@ -64,12 +76,12 @@
 		<div id="page-nav-wrapper" class="page-nav-wrapper text-center">
 			<div class="container">
 				<ul id="page-nav" class="nav page-nav list-inline">
-					<li><a class="scrollto" href="#experiences-section">Experiences</a></li>
-					<li><a class="scrollto" href="#eudcation-section">Education</a></li>
-					<li><a class="scrollto" href="#skills-section">Skills</a></li>
-					<li><a class="scrollto" href="#testimonials-section">Testimonials</a></li>
-					<li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
-					<li><a class="scrollto" href="#contact-section">Contact</a></li>
+					<li><a class="scrollto" href="#experiences-section">工作经历</a></li>
+					<li><a class="scrollto" href="#eudcation-section">教育经历</a></li>
+					<li><a class="scrollto" href="#skills-section">专业技能</a></li>
+					<!-- <li><a class="scrollto" href="#testimonials-section">Testimonials</a></li> -->
+					<li><a class="scrollto" href="#portfolio-section">项目经验</a></li>
+					<li><a class="scrollto" href="#contact-section">联系方式</a></li>
 				</ul><!--//page-nav-->
 			</div>
 		</div><!--//page-nav-wrapper-->
@@ -79,66 +91,62 @@
 
 <div class="wrapper container">
 	<section id="experiences-section" class="experiences-section section">
-		<h2 class="section-title">Work Experiences</h2>
+		<h2 class="section-title">工作经历</h2>
 		<div class="timeline">
 			<div class="item">
 				<div class="work-place">
-					<h3 class="place">Google</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Mountain View</div>
+					<h3 class="place">广东鼎义互联科技股份有限公司</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>珠海</div>
 				</div>
 				<div class="job-meta">
-					<div class="title">Senior Software Engineer</div>
-					<div class="time">2016 - Present</div>
+					<div class="title">研发经理</div>
+					<div class="time">2016.01 - 至今</div>
 				</div><!--//job-meta-->
 				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
+					<p>负责公司核心项目基层公共服务平台、智能引导系统和政务OA办公系统等政务产品的研发，工作内容包括需求采集和需求分析、定制解决方案、分解功能、定制开发计划、带领团队研发、监督、把握项目进度。</p> 
 					<ul>
-						<li>Lorem ipsum dolor sit amet</li>
-						<li>Donec pede justo ante</li>
-						<li>Maecenas tempus tellus eget </li>
+						<li>负责项目达18个，按时按质交付率达100%</li>
+						<li>从零开始建设开发团队、培养团队人员、管理开发团队</li>
+						<li>任职开发经理兼项目经理</li>
 					</ul>
 				</div><!--//job-desc-->
 			</div><!--//item-->
 			
 			<div class="item">
 				<div class="work-place">
-					<h3 class="place">Apple</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>New York</div>
+					<h3 class="place">深圳市爱生德信息科技有限公司</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>深圳</div>
 				</div>
 				<div class="job-meta">
-					<div class="title">Lead Software Engineer</div>
-					<div class="time">2015 - 2016</div>
+					<div class="title">系统架构设计师</div>
+					<div class="time">2015.03 - 2015.12</div>
 				</div><!--//job-meta-->
 				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
+					<p>负责公司项目架构设计与实现，按照需求定制合理的工程架构；参与项目需求分析，整理；参与项目开发包括前端，后端；</p> 
+					<ul>
+						<li>研发项目 5 个</li>
+						<li>对前台框架的选型及设计，前端组件化有深入的了解</li>
+						<li>得到客户指名认可</li>
+						<li>了解电商平台的相关业务</li>
+						<li>能在高强度的工作压力下保持良好的心态工作</li>
+					</ul>
 				</div><!--//job-desc-->
 			</div><!--//item-->
 			
 			<div class="item">
 				<div class="work-place">
-					<h3 class="place">Twitter</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London</div>
+					<h3 class="place">博彦科技（深圳）有限公司（原大展信息科技有限公司）</h3>
+					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>深圳</div>
 				</div>
 				<div class="job-meta">
-					<div class="title">Software Engineer</div>
-					<div class="time">2013 - 2015</div>
+					<div class="title">高级软件工程师</br>Team leader</div>
+					<div class="time">2012.07 - 2015.02</div>
 				</div><!--//job-meta-->
 				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Startup Hub</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Founder &amp; Lead Developer</div>
-					<div class="time">2012 - 2013</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
+					<p>前期项目需求分析；基于收集的用户需求，按照客户业务场景和需求编写解决方案；指导和协调开发小组完成业务分析与梳理；跟进产品开发过程，保证项目开发进度；培养及带领新人参与项目；</p>
+					<ul>
+						<li>同期入职员工中，成为唯一担任小组负责人的角色；</li>
+					</ul>
 				</div><!--//job-desc-->
 			</div><!--//item-->
 			
@@ -147,63 +155,63 @@
 	</section><!--//section-->
 	
 	<section id="eudcation-section" class="education-section section">
-		<h2 class="section-title">Education</h2>
+		<h2 class="section-title">教育经历</h2>
 		<div class="row">
-			<div class="item col-xs-12 col-sm-4">
+			<div class="item">
 				<div class="item-inner">
-					<h3 class="degree">MSc Computer Science</h3>
+					<h3 class="degree">计算机科学与技术</h3>
 					<div class="education-body">
-						University College of London
+						
 					</div><!--//education-body-->
-					<div class="time">2016 - 2012</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+					<div class="time">吉林大学珠海学院&nbsp; &nbsp; 2008 - 2012&nbsp; &nbsp; 本科</div>
+					<div class="desc">主要课程有：软件工程、C语言程序设计、JAVA、电路理论、计算机电路、计算机组成原理、计算机体系结构、数据结构、操作系统、数据库原理及应用、编译原理、程序设计方法等。该专业是致力于培养利用Java，C 等多种语言设计程序人才的，同时如软件测试，数据库，数据结构等也都是该专业的课程
 					</div>
 				</div><!--//item-inner-->
 			</div><!--//item-->
-			<div class="item col-xs-12 col-sm-4">
+
+			<!-- <div class="item col-xs-12 col-sm-4">
 				<div class="item-inner">
 					<h3 class="degree">MSc Applied Mathematics</h3>
 					<div class="education-body">
 						University of Bristol
-					</div><!--//education-body-->
+					</div>//education-body
 					<div class="time">2010 - 2016</div>
 					<div class="desc">
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
 					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
+				</div>//item-inner
+			</div>//item
+
 			<div class="item col-xs-12 col-sm-4">
 				<div class="item-inner">
 					<h3 class="degree">BSc Creative Technology</h3>
 					<div class="education-body">
 						University of Bristol
-					</div><!--//education-body-->
+					</div>//education-body
 					<div class="time">2007 - 2010</div>
 					<div class="desc">
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
 					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
+				</div>//item-inner
+			</div>//item -->
 			
 		</div><!--//row-->
 	</section><!--//section-->
 	
 	
 	<section id="skills-section" class="skills-section section text-center">
-		<h2 class="section-title">Professional Skills</h2>
+		<h2 class="section-title">专业技能</h2>
 		<div class="top-skills">
-			<h3 class="subtitle">Top Skills</h3>
+			<h3 class="subtitle">特长</h3>
 			<div class="row">
 				<div class="item col-xs-12 col-sm-4">
 					<div class="item-inner">
 						<div class="chart-easy-pie text-center">
 							<div class="chart-theme-1 chart" data-percent="98"><span>98</span>%</div>
 						</div>
-						<h4 class="skill-name">Python &amp; Django</h4>
-						<div class="level">Expert, 8 years</div>
+						<h4 class="skill-name">Java</h4>
+						<div class="level">5+ years</div>
 						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
 						</div>
 					</div><!--//item-inner-->
 				</div><!--//item-->
@@ -213,9 +221,8 @@
 							<div class="chart-theme-1 chart" data-percent="90"><span>90</span>%</div>
 						</div>
 						<h4 class="skill-name">JavaScript</h4>
-						<div class="level">Expert, 8 years</div>
+						<div class="level">4+ years</div>
 						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
 						</div>
 					</div><!--//item-inner-->
 				</div><!--//item-->
@@ -224,10 +231,9 @@
 						<div class="chart-easy-pie text-center">
 							<div class="chart-theme-1 chart" data-percent="85"><span>85</span>%</div>
 						</div>
-						<h4 class="skill-name">React &amp; Angular</h4>
-						<div class="level">Advanced, 4 years</div>
+						<h4 class="skill-name">AvalonJs &amp; AngularJs</h4>
+						<div class="level">4 years</div>
 						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
 						</div>
 					</div><!--//item-inner-->
 				</div><!--//item-->
@@ -235,37 +241,40 @@
 		</div><!--//top-skills-->
 		
 		<div class="other-skills">
-			<h3 class="subtitle">Other Skills</h3>
+			<h3 class="subtitle">其他技能</h3>
 			<div class="misc-skills">
 				<span class="skill-tag">HTML5</span>
 				<span class="skill-tag">CSS3</span>
-				<span class="skill-tag">SASS</span>
 				<span class="skill-tag">LESS</span>
 				<span class="skill-tag">Git</span>
+				<span class="skill-tag">Vue</span>
+				<span class="skill-tag">RequireJs</span>
+				<span class="skill-tag">Bootstrap</span>
 				<br>
-				<span class="skill-tag">Ruby</span>
-				<span class="skill-tag">PHP</span>
-				<span class="skill-tag">Wireframe</span>
-				<span class="skill-tag">Spanish</span>
-				<span class="skill-tag">French</span>
+				<span class="skill-tag">Fis3</span>	
+				<span class="skill-tag">Lucene</span>
+				<span class="skill-tag">SSH</span>
+				<span class="skill-tag">Shiro</span>
+				<span class="skill-tag">MySQL</span>
+				<span class="skill-tag">Maven</span>
 			</div>
 		</div><!--//other-skills-->
 		
 	</section><!--//skills-section-->
 	
-	<section id="testimonials-section" class="testimonials-section section">
+	<!-- <section id="testimonials-section" class="testimonials-section section">
 		<h2 class="section-title">Testimonials</h2>
 		
 		<div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
 			
-			<!-- Indicators -->
+			Indicators
 			<ol class="carousel-indicators">
 				<li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#testimonials-carousel" data-slide-to="1"></li>
 				<li data-target="#testimonials-carousel" data-slide-to="2"></li>
 			</ol>
 			
-			<!-- Wrapper for slides -->
+			Wrapper for slides
 			<div class="carousel-inner">
 				<div class="item active">
 					<blockquote class="quote">      
@@ -275,9 +284,9 @@
 					<div class="source">
 						<div class="name">Rob Olson</div>
 						<div class="position">Product Manager, Apple</div>
-					</div><!--//source-->   
+					</div>//source   
 												   
-				</div><!--//item-->
+				</div>//item
 				<div class="item">
 					<blockquote class="quote">
 						<p><i class="fa fa-quote-left"></i>
@@ -287,9 +296,9 @@
 					<div class="source">
 						<div class="name">Christina Jensen</div>
 						<div class="position">Senior Developer, Twitter</div>
-					</div><!--//source-->   
+					</div>//source   
 		   
-				</div><!--//item-->
+				</div>//item
 				<div class="item">
 					<blockquote class="quote">
 						<p><i class="fa fa-quote-left"></i>
@@ -298,183 +307,166 @@
 					<div class="source">
 						<div class="name">Austin Ward</div>
 						<div class="position">CEO, Startup Hub</div>
-					</div><!--//source-->          
-				</div><!--//item-->
+					</div>//source          
+				</div>//item
 				
-			</div><!--//carousel-inner-->
-		</div><!--//testimonials-carousel-->
+			</div>//carousel-inner
+		</div>//testimonials-carousel
 		
-	</section><!--//section-->
+	</section>//section -->
 	
 	
 	<section id="portfolio-section" class="portfolio-section section">
-		<h2 class="section-title">Portfolio</h2>
+		<h2 class="section-title">项目经验</h2>
 		<ul id="filters" class="filters clearfix">
 			<li class="type active" data-filter="*">All</li>
-			<li class="type" data-filter=".backend">Back-end</li>
-			<li class="type" data-filter=".frontend">Front-end</li>
+			<li class="type" data-filter=".backend">后端</li>
+			<li class="type" data-filter=".frontend">前端</li>
 		</ul><!--//filters-->
 		<div class="items-wrapper isotope row">
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
+
+			<div class="item col-md-3 col-xs-6 " v-for="work in workList" v-bind:class="work.classObject">
+				<div class="item-inner overlay">
 					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-1.jpg" alt="" />
+						<img class="img-responsive" :src="work.image" alt="{{work.subTitle}}" />
 					</figure>
 					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
+						<h3 class="sub-title">{{work.subTitle}}</h3>
+						<div class="meta">{{work.time}}</div>
+						<div class="action">查看详情</div>
 					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
+					<a class="link-mask" :href="'#modal_'+work.id"></a>              
+				</div>
+				<!--//item-inner-->
+				<div :id="'modal_'+work.id" class="popup-modal slider mfp-hide">
+				    <div class="description-box">
+				        <h4>{{work.subTitle}}<span class="period">{{work.time}}</span></h4>
+				        <div class="text">
+				            <h4>项目内容</h4>
+				            <p class="categories" v-html="work.projDesc"></p>
+				        </div>
+				        <div class="text">
+				            <h4>项目业绩</h4>
+				            <p class="categories" v-html="work.respDesc"></p>
+				        </div>
+				    </div>
+				    <div class="link-box">
+				        <a href="#" class="popup-modal-dismiss">Close</a>
+				    </div>
+				</div>
+				<!-- /modal-01 -->
 			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-2.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Django</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-3.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Django/JavaScript</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-4.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">ReactJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-5.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Python</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-6.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">JavaScript</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-7.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">HTML/AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-			<div class="item frontend backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-8.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Python/AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
 		</div><!--//item-wrapper-->
-		
 	</section><!--//section-->
 	
 	<section id="contact-section" class="contact-section section">
-		<h2 class="section-title">Get in Touch</h2>
+		<h2 class="section-title">联系我</h2>
 		<div class="intro">
-			<img class="profile-image" src="assets/images/profile-image.png" alt="">
+			<img class="profile-image" src="images/profile-image.png" alt="">
 			<div class="dialog">
-				<p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-				<p><strong>I can help with the following:</strong></p>
+				<!-- <p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p> -->
+				<p><strong>关于我：</strong></p>
 				<ul class="list-unstyled service-list">
-					<li><i class="fa fa-check" aria-hidden="true"></i> App development with ReactJS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with AngularJS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Django/Python</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> UI development</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> UX prototyping</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 5年以上Java开发经验，精通JAVA编程，扎实的Java编程功底，有丰富的JAVA EE项目开发经验；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟悉Spring MVC, Struct、Spring、Hibernate、Lucene等开源框架；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟悉各种主流 MVVM框架：AngularJS、AvalonJS, VueJS等；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟悉JavaScript、Ajax、DOM、JSON、CSS、HTML、jQuery、Less等前端开发技术</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟悉使用Fis3, Grunt前端构建工具；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟练MySQL、Oracle数据库；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 熟悉Agile敏捷开发，并有实际参与敏捷模式开发的经验；</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i> 很强的自学能力，能够阅读常见的专业英文资料。</li>
 				</ul>
-				<p>Drop me a line at <a href="mailto:someone@example.com">james.doe@website.com</a> or call me at <a href="tel:01234567890">0123 456 7890</a></p>
+
+				<p><strong>请联系我：</strong></p>
 				<ul class="social list-inline">
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-				</ul><!--//social-->
+					<li>
+						<a href="mailto:pengshaojie@aliyun.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="tel: +86 15989790855"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://gitee.com/shaojiepeng">
+						<i class="fa fa-github-alt" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a class="link-mask" href="#weixin">
+						<i class="fa fa-weixin" aria-hidden="true"></i></a>
+					</li>
+				</ul>
 			</div><!--//diaplog-->
 		</div><!--//intro-->
 
+		<div id="weixin" class="popup-modal slider mfp-hide" style="width:380px">
+		    <div class="media">
+		        <img src="images/weinxin.png" height="380" width="380" alt="" />
+		    </div>
+		    <div class="link-box">
+		        <a href="#" class="popup-modal-dismiss">Close</a>
+		    </div>
+		</div>
+		<!-- /weixin -->
 	</section><!--//section-->
-	
 </div><!--//wrapper-->
 
 <footer class="footer text-center">
 	<div class="container">
-		<small class="copyright">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></small>
+		<small class="copyright">Copyright &copy; 2018.Wenshan All rights reserved.</small>
 	</div><!--//container-->
 </footer>
 
+
+
 <!-- Javascript -->          
-<script type="text/javascript" src="assets/plugins/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
-<script type="text/javascript" src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
-<script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>  
+<script type="text/javascript" src="plugins/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>  
+<script type="text/javascript" src="plugins/back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+<script type="text/javascript" src="plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="plugins/imagesloaded.pkgd.min.js"></script> 
+<script type="text/javascript" src="plugins/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="plugins/magnific/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="plugins/vue.min.js"></script>
 
 <!-- custom js -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
 
-<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-<script src="assets/js/demo/style-switcher.js"></script>     
+var app = new Vue({
+	el: '#portfolio-section',
+	data: {
+		workList:[]
+    },
+    methods: {
+    },
+	created:function(){
+		$.ajax({
+		    url:'mock/work.json',
+		    type:'GET',
+		    async:true,
+		    data:{},
+		    dataType:'json',
+		    success:function(data,textStatus,jqXHR){
+		        /*console.log(data)
+		        console.log(textStatus)
+		        console.log(jqXHR)*/
+		        app.workList = data;
+		    },
+		    error:function(xhr,textStatus){
+		        console.log('错误')
+		        console.log(xhr)
+		        console.log(textStatus)
+		    }
+		})
+	},
+
+});
+
+
+
+
+
+</script>
 
 </body>
 </html>

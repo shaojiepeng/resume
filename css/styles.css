@@ -402,6 +402,7 @@ a.btn:hover {
 .education-section .time {
   color: #8a8a8a;
   margin-bottom: 15px;
+  font-size: 15px;
 }
 .education-section .desc {
   color: #666;
@@ -734,6 +735,9 @@ a.btn:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .portfolio-section .item-inner .content .proj-desc {
+    
   }
   .portfolio-section .item-inner .content .action {
     position: static;
