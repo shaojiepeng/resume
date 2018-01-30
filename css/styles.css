@@ -746,6 +746,9 @@ a.btn:hover {
   }
   .contact-section .intro {
     padding: 0;
+    text-align: center;
+  }
+  .contact-section .dialog {
     text-align: left;
   }
   .contact-section .intro .profile-image {
